@@ -43,7 +43,7 @@ body {
   
   /* When clicked on, add a background color and strike out text */
   ul li.checked {
-    background: #888;
+    background: #f3867a;
     color: #fff;
     text-decoration: line-through;
   }
@@ -77,9 +77,9 @@ body {
   
   /* Style the header */
   .header {
-    background-color: #f44336;
+    background-color: #ffffff;
     padding: 30px 40px;
-    color: white;
+    color: #5a5a5a;
     text-align: left;
   }
   
@@ -99,6 +99,7 @@ body {
     padding: 10px;
     float: left;
     font-size: 16px;
+    background: #eeeeee;
   }
   
   /* Style the "Add" button */
