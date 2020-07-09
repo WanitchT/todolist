@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List of Liverpool F.C. players</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th style="width: 340px;">
+            <img src="images/liverpool.jpg" width="150" height="150" alt="Liverpool" />
+            <img src="images/premier.jpg" width="150" height="150" alt="Liverpool" />
+          </th>
+          <th>
+            <div id="myDIV" class="header">
+              <h2 style="margin:5px">List of Liverpool F.C. players</h2>
+              <input type="text" id="myInput" placeholder="Title...">
+              <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <ul id="myUL">
+              <li>1 Alisson Ramses Becker</li>
+              <li>3 Fabinho</li>
+              <li class="checked">4 Virgil van Dijk</li>
+              <li>5 Georginio Wijnaldum</li>
+              <li>9 Roberto Firmino</li>
+              <li>10 Sadio Mane</li>
+              <li>11 Mohamed Salah</li>
+              <li>14 Jordan Henderson</li>
+              <li>26 Andy Robertson</li>
+              <li>32 Joel Matip</li>
+              <li>66 Trent Alexander-Arnold</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
